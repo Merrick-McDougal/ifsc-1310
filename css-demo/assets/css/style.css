@@ -212,6 +212,21 @@ aside article.widget footer{
     display:none;
 }
 
+.widget.overview table {
+  font-size: 0.7em;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.widget.overview table td {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+}
+
+.widget.overview table td:nth-child(even) {
+  text-align: right;
+}
+
 #colophon {
     background-color: #F2AB7E;
     background-color: #f2ab7e;
@@ -307,6 +322,11 @@ table th{
 #additional-elements dd{
   margin:0;
   
+}
+
+.widget.overview table td {
+  border-bottom: 1px solid #fff;
+  padding: 10px;
 }
 
 /* Adjacent Sibling Combinator */
